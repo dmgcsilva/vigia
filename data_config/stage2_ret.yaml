@@ -1,0 +1,23 @@
+pixmo:
+    data_path: /path/to/your/data/pixmo/cap/pixmo_cap.parquet
+    simple: False
+    wrap_img_tokens: True
+    extension_factor: 2
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 450
+    supported_tasks: ['retrieval']
+llava_pretrain:
+    data_path: /path/to/your/data/llava_pretrain/llava_pretrain_ret_convs.json
+    simple: False
+    extension_factor: 2
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 450
+    supported_tasks: ['retrieval']
+sharegpt4v:
+    data_path: /path/to/your/data/sharegpt4v/sharegp4v_ret.parquet
+    simple: False
+    extension_factor: 2
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 450
+    supported_tasks: ['retrieval']
+    

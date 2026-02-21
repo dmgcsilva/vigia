@@ -1,0 +1,29 @@
+sharegpt4o:
+    data_path: /path/to/your/data/sharegpt4o/sharegpt_convs.jsonl
+    image_folder: /path/to/your/data/sharegpt4o/images/
+    simple: False
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 900
+    supported_tasks: ['captioning']
+mammoth:
+    data_path: /path/to/your/data/mammoth/mammoth_si_1M.json
+    image_folder: /path/to/your/data/mammoth/images/
+    max_samples: 1000000
+    simple: False
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 900
+    supported_tasks: ['captioning']
+vqav2:
+    data_path: /path/to/your/data/vqav2/vqav2_convs.json
+    image_folder: /path/to/your/data/vqav2/images/
+    simple: False
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 900
+    supported_tasks: ['captioning']
+gqa:
+    data_path: /path/to/your/data/gqa/gqa_convs.json
+    image_folder: /path/to/your/data/gqa/images/
+    simple: False
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 900
+    supported_tasks: ['captioning']

@@ -1,0 +1,21 @@
+crosstask:
+    data_path: /path/to/your/data/crosstask/data/simulated_conversations_ret.json
+    simple: False
+    extension_factor: 3
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 200
+    supported_tasks: ['retrieval']
+coin:
+    data_path: /path/to/your/data/coin/data/simulated_conversations_ret.json
+    simple: False
+    extension_factor: 3
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 200
+    supported_tasks: ['retrieval']
+youcook2:
+    data_path: /path/to/your/data/youcook2/simulated_conversations_ret.json
+    simple: False
+    extension_factor: 3
+    feature_extractor_model: google/siglip-so400m-patch14-224
+    max_len: 200
+    supported_tasks: ['retrieval']
