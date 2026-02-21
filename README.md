@@ -120,7 +120,3 @@ If you find this work useful, please cite our paper:
     publisher = "Association for Computational Linguistics",
 }
 ```
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
