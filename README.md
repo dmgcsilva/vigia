@@ -10,11 +10,12 @@ VIGiA assists users through complex multi-step procedures (e.g., cooking recipes
 
 ## Model Weights
 
-Model weights will be available soon. <!-- TODO: add link -->
+Model weights can be downloaded here: [🤗 HF link](https://huggingface.co/dmgcsilva/VIGiA-8B).
+Please not that the model's custom architecture means it can't be loaded directly from hugging face. Please folow the logic in [main.py](src/main.py#L93).
 
 ## InstructionVidDial Dataset
 
-The InstructionVidDial dataset will be available soon. <!-- TODO: add link -->
+The InstructionVidDial dataset can be downloaded here: [🤗 HF link](https://huggingface.co/datasets/dmgcsilva/InstructionVidDial).
 
 InstructionVidDial is a multimodal dialogue dataset for conversational plan guidance that extends TastyVidDial with:
 - **DIY plans** sourced from COIN, expanding coverage beyond cooking
